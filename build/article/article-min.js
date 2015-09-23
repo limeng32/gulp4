@@ -1,0 +1,1 @@
+KISSY.add("gulp4/article/article",["node","gulp4/article/article-view","kg/xtemplate/3.3.3/runtime"],function(e,t,i,l){var r=t("node").all,a=t("gulp4/article/article-view"),n=t("kg/xtemplate/3.3.3/runtime");l.exports={init:function(){e.log("article init");var t=new n(a).render({title:"this is article",content:"render by kg/xtemplate"});r("article").html(t)}}});
