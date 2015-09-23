@@ -13,7 +13,7 @@ var fs = require('fs');
 var src = "./src",
     dest = "./build";
 var root = process.cwd();
-//包配置
+//包配置111
 var pkg = path.basename(root);
 var comboSuffix = '-combo';
 
